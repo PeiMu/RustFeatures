@@ -15,13 +15,20 @@ pub(crate) fn structs_test() {
     user1.email = String::from("another@example.com");
 
     let user2 = build_user(String::from("test@example.com"), String::from("test"));
-    println!("email: {}, username: {}, sing_in_count: {}, activate: {}",
-             user2.email, user2.username, user2.sign_in_count, user2.active);
+    println!(
+        "email: {}, username: {}, sing_in_count: {}, activate: {}",
+        user2.email, user2.username, user2.sign_in_count, user2.active
+    );
 
-    let user3 = update_struct(user1, String::from("update@example.com"),
-                              String::from("update"));
-    println!("email: {}, username: {}, sing_in_count: {}, activate: {}",
-             user3.email, user3.username, user3.sign_in_count, user3.active);
+    let user3 = update_struct(
+        user1,
+        String::from("update@example.com"),
+        String::from("update"),
+    );
+    println!(
+        "email: {}, username: {}, sing_in_count: {}, activate: {}",
+        user3.email, user3.username, user3.sign_in_count, user3.active
+    );
 
     tuple_structs();
 

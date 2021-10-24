@@ -1,6 +1,6 @@
 use rand::Rng;
-use std::io;
 use std::cmp::Ordering;
+use std::io;
 
 const XX: u8 = 10;
 
@@ -48,7 +48,6 @@ pub(crate) fn basic_syntax() {
     let spaces = "   ";
     let spaces = spaces.len();
     println!("{} spaces.", spaces);
-
 }
 
 pub(crate) fn guess_game() {

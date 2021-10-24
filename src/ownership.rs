@@ -44,7 +44,7 @@ pub(crate) fn ownership_test() {
 
     let mut i = 10;
     let i2 = &mut i;
-    let i1 = & i;
+    let i1 = &i;
 
     println!("{}", i1);
 
@@ -90,7 +90,7 @@ fn change(some_string: &mut String) {
 //     &i
 // }
 
-fn first_word(s:& String) -> usize {
+fn first_word(s: &String) -> usize {
     let bytes = s.as_bytes();
 
     for (i, &iterm) in bytes.iter().enumerate() {
@@ -117,7 +117,7 @@ fn slice_second_word(s: &mut String) -> &str {
 
     for (i, &item) in bytes.iter().enumerate() {
         if item == b' ' {
-            return &s[i+1..];
+            return &s[i + 1..];
         }
     }
     &s[..]

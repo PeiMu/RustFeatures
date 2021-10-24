@@ -47,5 +47,9 @@ fn fibonacci(num: i8) -> i8 {
     //     return 1;
     // }
     // fibonacci(num - 1) + fibonacci(num - 2)
-    if num <= 2 {1} else {fibonacci(num - 1) + fibonacci(num - 2)}
+    if num <= 2 {
+        1
+    } else {
+        fibonacci(num - 1) + fibonacci(num - 2)
+    }
 }
