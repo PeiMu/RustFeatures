@@ -1,5 +1,5 @@
 # Rust Features
-Some rust codes related to my blog - [**Rust Simple Code**](https://mp.weixin.qq.com/s/_wCDN89x3KmfyIBVCm-W5A)
+Some rust codes related to my blog - [**Rust Easy Notes**](https://mp.weixin.qq.com/s/_wCDN89x3KmfyIBVCm-W5A)
 
 To introduce some features of Rust language.
 
