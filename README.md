@@ -1,7 +1,9 @@
-# RustSimpleCode
-Some rust codes related to the "Rust Simple Code" document. 
+# Rust Features
+Some rust codes related to my blog - [**Rust Simple Code**](https://mp.weixin.qq.com/s/_wCDN89x3KmfyIBVCm-W5A)
 
-此Repo是微信公众号“沛沛聊AI”之《Rust简易笔记》系列中相关的代码示例。
+To introduce some features of Rust language.
+
+此Repo是微信公众号“沛沛聊AI”之[**《Rust简易笔记》**](https://mp.weixin.qq.com/s/_wCDN89x3KmfyIBVCm-W5A)系列中相关的代码示例。
 
 ## 编译运行方式
 * 可以选择和我一样用Clion配置（具体配置方式在公众号文章《Rust简易笔记（1）—— 编译运行及语言基本概念》中有讲）；
